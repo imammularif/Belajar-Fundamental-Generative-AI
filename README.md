@@ -1,5 +1,3 @@
-# Belajar-Fundamental-Generative-AI
-
 # Lunar Exploration: Generative AI & Image Manipulation
 
 Proyek ini mendemonstrasikan implementasi **Stable Diffusion** dan **Segment Anything Model (SAM)** untuk pembuatan dan penyuntingan gambar berbasis kecerdasan buatan. Proyek ini mencakup alur kerja lengkap dari *Text-to-Image*, *Image-to-Image*, hingga teknik manipulasi tingkat lanjut seperti *Inpainting* dan *Outpainting*.
@@ -34,12 +32,15 @@ Mengubah area tertentu pada permukaan bulan menjadi objek lain (seperti rongsoka
 ### 2. Outpainting & Zoom Out
 Memperluas pemandangan galaksi di sekitar astronot untuk menciptakan komposisi foto yang lebih luas (*wide angle*).
 
-## 📝 Cara Menjalankan
+## 📝 Panduan Penggunaan
 
-Clone repositori ini ke direktori lokal Anda.
+* **Clone repositori** ini ke direktori lokal Anda:
+    ```bash
+    git clone [https://github.com/](https://github.com/)[USERNAME_KAMU]/lunar-gen-ai.git
+    ```
+* Gunakan **Python 3** untuk menginstal semua *library* pendukung yang tertera di `requirements.txt`.
+* Notebook ini dapat dijalankan di berbagai platform seperti **VS Code**, **Jupyter**, maupun **Google Colab**.
+* **Catatan**: Sangat disarankan menggunakan akselerasi **GPU** untuk hasil proses yang lebih cepat dan lancar.
 
-Gunakan Python 3 untuk menginstal semua library pendukung yang tertera di requirements.txt.
-
-Notebook ini dapat dijalankan di berbagai platform seperti VS Code, Jupyter, maupun Google Colab.
-
-Catatan: Sangat disarankan menggunakan akselerasi GPU untuk hasil proses yang lebih cepat dan lancar.
+---
+**Disclaimer**: Proyek ini dikembangkan sebagai bagian dari tugas akhir sertifikasi Generative AI di Dicoding Indonesia.
